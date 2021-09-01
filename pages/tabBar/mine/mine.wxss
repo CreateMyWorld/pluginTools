@@ -1,0 +1,43 @@
+/* pages/tabBar/mine/mine.wxss */
+
+.header {
+  width: 750rpx;
+  height: 360rpx;
+  background: #f0f0f4;
+}
+
+.header-image {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 80rpx 300rpx 0rpx 300rpx;
+  border-radius: 75rpx;
+  background-color: #CBD2DE;
+  /* display: block; */
+}
+
+.title {
+  width: 270rpx;
+  height: 42rpx;
+  margin: 9rpx 240rpx 0rpx 240rpx;
+  color: #666;
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.loginOut-btn {
+  width: 600rpx;
+  height: 86rpx;
+  margin: 0rpx 75rpx 0rpx 75rpx;
+  position: fixed;
+  bottom: 208rpx;
+  font-size: 28rpx;
+  color: #fff;
+  background: #4a4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginOut-btn-hover {
+  background: #4a4a4a;
+}

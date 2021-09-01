@@ -1,0 +1,35 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.loginOut-btn {
+  width: 600rpx;
+  height: 86rpx;
+  margin: 35rpx 75rpx 0rpx 75rpx;
+  font-size: 28rpx;
+  color: #fff;
+  background: #4a4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginOut-btn-hover {
+  background: #4a4a4a;
+}

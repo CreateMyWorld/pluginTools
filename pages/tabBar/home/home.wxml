@@ -1,0 +1,32 @@
+<!--pages/tabBar/home/home.wxml-->
+
+<block wx:if="{{token}}">
+  <qinlin-open-door token="{{token}}"
+  backgroundImage= 'url(https://file.qinlinad.com/qinlin-open-plus/pics/bg.png)'
+  commonDoorImage= "/images/201909270005.png"
+  doorImage= "/images/201909270004.png"
+  editImage= "/images/2019092700023.png"
+  bind:openDoorResultsChange="openDoorResultsChange"
+  bind:whetherCommunityAuthority="userIsAuthority">
+
+  </qinlin-open-door>
+</block>
+
+<view class="section">
+  <view class="section-title">小区服务</view>
+  <view class="section-view">
+    <block wx:for="{{serverList}}" wx:key="image">
+      <block wx:if="{{item.type == '0'}}">
+        <view class="section-item" data-type="{{item.type}}" wx:if="{{!isShowVisitor}}" bindtap="selectCommunityServer">
+          <image class="section-item-image" src="{{item.image}}"></image>
+          <view class="section-item-title">{{item.title}}</view>
+        </view>
+      </block>
+      <view class="section-item" data-type="{{item.type}}" wx:else bindtap="selectCommunityServer">
+        <image class="section-item-image" src="{{item.image}}"></image>
+        <view class="section-item-title">{{item.title}}</view>
+      </view>
+    </block>
+  </view>
+  <view class="section-footer"></view>
+</view>

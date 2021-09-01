@@ -1,0 +1,64 @@
+/* pages/login/login.wxss */
+
+.title {
+  color: #333;
+  font-size: 20px;
+  margin: 80rpx 40rpx 0 40rpx;
+}
+
+.input-base-view {
+  width: 670rpx;
+  height: 110rpx;
+  border: 2rpx solid #e6e6e6;
+  margin: 30rpx 40rpx 0 40rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10rpx;
+}
+
+.input {
+  width: 430rpx;
+  font-size: 17px;
+  color: #333;
+  margin-left: 30rpx;
+}
+
+.gain-code {
+  width: 170rpx;
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 20rpx;
+  text-align: center;
+  padding: 20rpx 0rpx 20rpx 0rpx;
+}
+
+.gain-code-time {
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 20rpx;
+}
+
+.gain-code-succes {
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 0rpx;
+}
+
+.password-view {
+  width: 46rpx;
+  height: 46rpx;
+  margin-left: 100rpx;
+}
+
+.login-btn {
+  width: 670rpx;
+  height: 100rpx;
+  margin: 70rpx 40rpx 0rpx 40rpx;
+  border-radius: 10rpx;
+  color: white;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

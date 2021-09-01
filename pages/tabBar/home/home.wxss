@@ -1,0 +1,57 @@
+/* pages/tabBar/home/home.wxss */
+
+page {
+  background: #F0F2F5;
+}
+
+.section {
+  width: 702rpx;
+  height: auto;
+  margin: 0rpx 24rpx 16rpx 24rpx;
+  border-radius: 16rpx;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.section-title {
+  margin: 16rpx 0rpx ;
+  margin-top: 16rpx;
+  margin-left: 26rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333333;
+  line-height: 45rpx;
+  display: block;
+}
+
+.section-view {
+  margin: 0rpx 11rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-item {
+  width: 140rpx;
+  height: 152rpx;
+
+  margin: 24rpx 15rpx 0rpx 15rpx;
+}
+
+.section-item-image {
+  width: 48rpx;
+  height: 48rpx;
+  margin: 30rpx 46rpx 0rpx 46rpx;
+  display: block;
+}
+
+.section-item-title {
+  margin-top: 14rpx;
+  font-size: 28rpx;
+  color: #454545;
+  text-align: center;
+  line-height: 36rpx;
+}
+
+.section-footer {
+  height: 40rpx;
+}

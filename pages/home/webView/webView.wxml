@@ -1,0 +1,3 @@
+<!--pages/home/webView/webView.wxml-->
+
+<web-view src="{{urlString}}"></web-view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "qinlin-open-door": "plugin://qinlin-plugin/qinlin-open-door"
+  },
+  "navigationBarTitleText": "首页"
+}

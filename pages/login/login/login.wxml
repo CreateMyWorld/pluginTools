@@ -1,0 +1,33 @@
+<!--pages/login/login.wxml-->
+
+
+<view class='title'>手机登录</view>
+
+<view class='input-base-view'>
+
+  <input class='input' type='number' maxlength='11' bindinput='inputPhone' value='{{phone}}' placeholder-style='color: #cccccc;' placeholder='输入手机号码'></input>
+
+
+
+  <view wx:if="{{isSendCode}}">
+    <text class='gain-code-time' style="color: #d24847;font-width:bold;">{{countdown}}</text>
+    <text class='gain-code-succes' style="color: #cccccc;font-width:mormal;">后重发</text>
+  </view>
+
+  <view wx:else>
+    <text class='gain-code' style="{{isTel?'color: #d24847;font-width:bold;':'color: #cccccc;font-width:mormal;'}}" bindtap='gainCode'>{{gainCodeText}}</text>
+  </view>
+
+</view>
+
+<view class='input-base-view'>
+
+  <input class='input' type='number' placeholder-style='color: #cccccc;' maxlength='6' bindinput='inputAuthCode' value='{{inputCode}}' placeholder='输入验证码'></input>
+
+  <!-- <image class='password-view' src='/images/btn_passw_hiden.png'> </image> -->
+
+</view>
+
+<!-- 登录 -->
+<button bindtap="bindLogin" class='login-btn' style="{{(isTel&&isCode)?'background-color: #d24847;':'background-color: #cccccc;'}}">登录</button>
+

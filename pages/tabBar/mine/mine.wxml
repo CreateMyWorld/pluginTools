@@ -1,0 +1,12 @@
+<!--pages/tabBar/mine/mine.wxml-->
+
+<view class='header'>
+  <image class='header-image' src='/images/img_weixinmini_logo.jpeg'></image>
+  <view class='title'>沃爱生活</view>
+</view>
+
+
+<button class='loginOut-btn' wx:if="{{isLogin}}" hover-class='loginOut-btn-hover' bindtap='loginOut'>
+  退出登录
+</button>
+

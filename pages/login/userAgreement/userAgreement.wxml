@@ -1,0 +1,5 @@
+<!--pages/login/userAgreement/userAgreement.wxml-->
+
+<view>
+  <web-view src='{{urlStr}}'></web-view>
+</view>

@@ -1,0 +1,67 @@
+/* pages/login/loginView/loginView.wxss */
+
+.image {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 210rpx 285rpx 0rpx 285rpx;
+  border-radius: 90rpx;
+}
+
+.title {
+  font-size:36rpx;
+  color:#333333;
+  letter-spacing:0;
+  text-align:center;
+  line-height:40rpx;
+}
+
+.wechat-login {
+  width: 620rpx;
+  height: 90rpx;
+  margin: 130rpx 65rpx 0rpx 65rpx;
+  font-size:32rpx;
+  color:#ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wechat-login > image {
+  width: 46rpx;
+  height: 46rpx;
+  margin-right: 14rpx;
+}
+
+.phone-login {
+  width: 620rpx;
+  height: 90rpx;
+  margin: 20rpx 65rpx 0rpx 65rpx;
+  font-size:32rpx;
+  color:#333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-login > image {
+  width: 46rpx;
+  height: 46rpx;
+  margin-right: 14rpx;
+}
+
+
+.user-remind {
+  width: 100%;
+  position: absolute;
+  bottom: 40rpx;
+  font-size:26rpx;
+  color:#333333;
+  text-align:center;
+  line-height:40rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.user-protocol {
+  color: #0072ff;
+}
