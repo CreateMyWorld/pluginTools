@@ -63,7 +63,7 @@ App({
 首先，参见[微信官方的插件使用文档](https://developers.weixin.qq.com/miniprogram/dev/framework/plugin/using.html)申请插件权限，在申请使用插件的使用时，填写以下appid:wx811076d46ae1ea59
 
 ### 引入插件代码
-参见[官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/plugin/using.html)与[示例项目](https://github.com/tvfe/txv-miniprogram-plugin)，尽量使用最新版本插件，，如有问题，可在github提交[issues](https://github.com/tvfe/txv-miniprogram-plugin/issues)或致电:0755-23608113
+参见[官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/plugin/using.html)与[示例项目](https://github.com/CreateMyWorld/pluginTools)，尽量使用最新版本插件，，如有问题，可在github提交[issues](https://github.com/CreateMyWorld/pluginTools/issues)或致电:0755-23608113
 
 ### 使用亲邻开门组件
 wxml
